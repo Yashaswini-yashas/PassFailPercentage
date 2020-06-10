@@ -46,7 +46,7 @@ public class PassFailPercentage{
 	}
 	public static void testCaseOne() {
 		totalCases++;
-		System.setProperty("webdriver.chrome.driver", "C://Users/yashass/Downloads/chromedriver_win32 (1)/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.get(url);
 		driver.findElement(By.xpath("//a[@class='btn btn-default']")).click();
@@ -80,7 +80,7 @@ public class PassFailPercentage{
 	
 	public static void testCaseTwo() {
 		totalCases++;
-		System.setProperty("webdriver.chrome.driver", "C://Users/yashass/Downloads/chromedriver_win32 (1)/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.get(url);
 		//if (driver.getPageSource().contains("Last name")) {
@@ -98,7 +98,7 @@ public class PassFailPercentage{
 	
 	private static void testCaseThree() throws InterruptedException {
 		totalCases++;
-		System.setProperty("webdriver.chrome.driver", "C://Users/yashass/Downloads/chromedriver_win32 (1)/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.get(url);
 		JavascriptExecutor js = (JavascriptExecutor)driver;
